@@ -7,7 +7,7 @@
 </div>
 
 <style>
-  @import "../app.css";
+  @reference "../app.css";
 
   :global(body) {
     @apply bg-violet-950 text-white;
