@@ -1,0 +1,18 @@
+{
+  "client_id": "https://discord-bridge.roomy.chat/oauth-client.json",
+  "client_name": "Roomy Discord Bridge",
+  "client_uri": "https://discord-bridge.roomy.chat",
+  "logo_uri": "https://discord-bridge.roomy.chat/favicon.png",
+  "tos_uri": "https://roomy.chat",
+  "policy_uri": "https://roomy.chat",
+  "redirect_uris": [
+    "chat.roomy:/oauth/callback",
+    "https://discord-bridge.roomy.chat/oauth/callback"
+  ],
+  "scope": "atproto transition:generic transition:chat.bsky",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "application_type": "native",
+  "dpop_bound_access_tokens": true
+}
